@@ -1,0 +1,71 @@
+/* Layout the page similar to the built-in post edit screen. */
+
+#sc-settings {
+	margin-right: 310px;
+}
+
+#sc-settings-content {
+	width: 100%;
+	float: left;
+}
+
+#sc-settings-sidebar {
+	float: right;
+	margin-right: -310px;
+	width: 290px;
+}
+
+#sc-settings-sidebar .centered {
+	text-align: center;
+}
+
+#sc-settings-sidebar .button-large {
+	font-size: 17px;
+	line-height: 30px;
+	height: 32px;
+}
+
+#sc-settings-sidebar .last-blurb {
+	font-size: 17px;
+}
+
+/* Alternative postbox class with no background or border. */
+#sc-settings-sidebar .postbox-nobg {
+	position: relative;
+	min-width: 255px;
+}
+
+/* postbox overrides */
+#sc-settings-sidebar .sidebar-container .postbox .inside {
+	margin-bottom: 0;
+}
+
+/* Toggle switch wrap */
+.sc_settings-toggle-switch-wrap {
+	width: 300px;
+	margin-left: -88px;
+}
+
+/* Used to hide settings on page load */
+.sc-admin-hidden {
+	display: none;
+}
+
+/* Content block for admin tabs */
+#sc-settings-content .tab-content {
+	display: block;
+	padding-top: 15px;
+}
+
+/* Labels for admin settings */
+#sc-settings-content .tab-content label {
+	font-weight: bold;
+	display: block;
+	margin-top: 15px;
+}
+
+#sc-settings-content .tab-content input[type="radio"] + label {
+	display: inline;
+	margin-top: 0px;
+	font-weight: normal;
+}
